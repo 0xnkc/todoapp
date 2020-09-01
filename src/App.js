@@ -1,18 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from "./logo.png";
 import "./App.css"
 
-function App(){
-  return (
-    <div className="App">
-    <header className="App-header">
-    <img src={logo} className="App-logo"/>
-    <p> Learn React Crash Course </p>
-    </header>
-    
-    </div>
-    );
-}
+class App extends React.Component{
+  render(){
+    return (
+      <div>
+      <img src={logo} width="100" height="100" className="logo"/>
+      <h1 className="app-title">Todo App</h1>
+       <div className="container">
+        add an item.....
+        <br/>
+        <input type="text" className="input-text" placeholder="Write a ToDo"/>
+        <button className="add-button">Add TODO</button>
+        <div className="list">
+        <ul>
+        <li>
+          <input type="checkbox"></input>
+          Learn MERN
+          <button className="btn">Delete</button>
+        </li>
+        </ul>
+        </div>
+       </div>
+      </div>
+      );
+  }
 
+}
 
 export default App;
