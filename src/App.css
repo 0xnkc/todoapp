@@ -1,6 +1,6 @@
-body{
+body {
   background: #001D38;
-  font-size:20px ;
+  font-size: 20px;
 }
 
 .logo {
@@ -16,44 +16,44 @@ body{
   margin-right: auto;
   width: 30%;
   color: aliceblue;
- font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-} 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-.app-title{
+.app-title {
   text-align: center;
   color: aliceblue;
 }
 
 .add-button {
-  background:lightcyan;
-  padding:5px ;
+  background: lightcyan;
+  padding: 5px;
   border-radius: 8px;
   margin: 3px;
 }
 
-.input-text{
+.input-text {
   padding: 5px;
   border-radius: 8px;
 }
 
-.list{
+.list {
   background: whitesmoke;
   color: black;
-   border-radius: 10px;
- font-family: -apple-system,
- BlinkMacSystemFont,
- 'Segoe UI',
- Roboto,
- Oxygen,
- Ubuntu,
- Cantarell,
- 'Open Sans',
- 'Helvetica Neue',
- sans-serif;
+  border-radius: 10px;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
 
 }
 
-.btn{
+.btn {
   margin-left: 20px;
   background: skyblue;
   border-radius: 8px;
@@ -62,6 +62,7 @@ body{
   padding: 5px;
 }
 
-ul{
+ul {
   list-style-type: none;
+
 }
